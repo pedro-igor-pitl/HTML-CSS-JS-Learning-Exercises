@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to left,rgb(105, 107, 209),rgb(16, 194, 164));
+    height: 150vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(227, 247, 255);
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 30px;
+}
+#logo{
+    width: 30%;
+    
+}
+#azul{
+color: rgb(10, 84, 221);
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(44, 98, 145);
+        font-family: 'Raleway', sans-serif;
+}
+footer{
+    margin-top: -20px;
+    width: auto;
+    height: 10vh;
+    background-image: linear-gradient(to top, rgb(90, 168, 219), rgb(10, 93, 148));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#credito{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+#entre_contato{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    margin: 100px;
+}
+#nome1{
+    color: rgba(215, 234, 245, 0.418);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(7, 69, 139),rgb(5, 7, 102));
+    border-radius: 100px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#nome{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(224, 237, 252),rgb(158, 202, 238));
+    border-radius: 100px;
+    font-size: 30px;
+}
+#contato1{
+    color: rgba(215, 234, 245, 0.418);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(7, 69, 139),rgb(5, 7, 102));
+    border-radius: 100px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#contato{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(224, 237, 252),rgb(158, 202, 238));
+    border-radius: 100px;
+    font-size: 30px;
+}
+form{
+    max-width: 1300px;
+    text-align: center;
+}
+#finalizar{
+    color: rgba(236, 236, 236, 0.788);
+    background-image: linear-gradient(to right,rgb(28, 127, 173),rgb(7, 55, 110));
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-color: rgb(152, 155, 158);
+    margin: 20px 0;
+}
+#finalizar:hover{
+    color: rgba(236, 236, 236, 0.788);
+    background-image: linear-gradient(to left,rgb(7, 55, 110),rgb(58, 149, 190));
+    border-radius: 100px;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}

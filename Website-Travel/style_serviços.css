@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(227, 247, 255);
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 30px;
+}
+#logo{
+    width: 30%;
+    
+}
+#azul{
+color: rgb(10, 84, 221);
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(44, 98, 145);
+        font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: black;
+}

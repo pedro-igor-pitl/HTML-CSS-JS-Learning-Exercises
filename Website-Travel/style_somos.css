@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+}
+header{
+    background-image: url(imagem_somos/fundo2.jpg);
+    background-size: cover;
+    height: 120vh;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(227, 247, 255);
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 30px;
+}
+#logo{
+    width: 30%;
+    
+}
+#azul{
+color: rgb(10, 84, 221);
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(44, 98, 145);
+        font-family: 'Raleway', sans-serif;
+}
+#somos{
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+margin-top: -10px;
+font-family: 'Roboto', sans-serif;
+text-shadow: 2px 2px black;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+hr{
+    margin: 5%;
+}
+#paragrafo_somos{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    max-width: 1250px;
+    font-family: 'Instrument Serif', serif;
+    text-shadow: 2px 2px black;
+}
+footer{
+    margin-top: -20px;
+    width: auto;
+    height: 10vh;
+    background-image: linear-gradient(to top, rgb(63, 152, 211), rgb(5, 96, 156));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#credito{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

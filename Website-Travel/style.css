@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(96, 167, 196);
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 30px;
+}
+#logo{
+    width: 30%;
+}
+#azul{
+color: rgb(10, 84, 221);
+}
+header{
+    height: 200vh;
+    background: no-repeat center/cover url(imagem/fundo.jpg);
+}
+.titulo{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    margin-top: 300px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-shadow: 2px 2px black;
+}
+hr{
+    margin: 50px;
+}
+#saiba{
+    max-width: 200px;
+    margin: auto;
+    color: white;
+    background-image: linear-gradient(to top, rgb(214, 109, 39), rgb(212, 106, 73));
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+#saiba:hover{
+    max-width: 200px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(180, 82, 16), rgb(212, 106, 73));
+    text-align: center;
+    border-radius: 50px;
+    font-size: 35px;
+   
+}
+footer{
+    margin-top: -20px;
+    width: auto;
+    height: 10vh;
+    background-image: linear-gradient(to top, rgb(63, 152, 211), rgb(5, 96, 156));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#credito{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(44, 98, 145);
+        font-family: 'Raleway', sans-serif;
+}
