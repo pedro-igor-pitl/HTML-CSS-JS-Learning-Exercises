@@ -1,0 +1,158 @@
+* {
+    box-sizing : border-box ;
+    margin: 0;
+     padding: 0;
+    }
+     .row::after {
+ clear: both;
+    }
+
+     [class*="col-"] {
+     width:93%;
+     } 
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+#logo{
+    width: 40%;
+    padding: 10px 10px;
+}
+
+.form{
+    display: block;
+}
+.titulo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+input{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border:  solid  1px rgb(51, 51, 51);
+    border-radius: 1vh;
+    margin: 10px 15px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    text-align: left;
+}
+label{
+    color: white; 
+    margin: -50px 50px;
+    padding: 20px 60px;
+    margin-top: -20px;
+}
+.label_lembre{
+    color: white; 
+    margin: 0px 0px;
+    padding: 0px 0px;
+    margin-top: 0px;
+}
+a{
+    color: aliceblue;
+}
+button{
+    color: white;
+    background-color: rgb(207, 18, 18);
+    border:  solid  1px rgb(51, 51, 51);
+    border-radius: 1vh;
+    margin: 10px 15px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.ajuda{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.ajuda_link{
+   padding-left: 20px;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+}
+.ajuda_link:hover{
+    text-decoration: underline;
+}
+.novo{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.linha{
+    
+    color: rgb(182, 182, 182);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.div_novo{
+    display: flex;
+}
+
+.novo:hover{
+    text-decoration: underline;
+}
+.saiba{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+@media only screen and (min-width: 740px){
+    [class*="col-"] {
+        float: left;
+        }
+.col-1 {width: 6,25%;}
+.col-2 {width: 12,5%;}
+.col-3 {width: 18,75%;}
+.col-4 {width: 25%;}
+.col-5 {width: 31,25%;}
+.col-6 {width: 37,5%;}
+.col-7 {width: 43,75%;}
+.col-8 {width: 50%;}
+.col-9 {width: 56,25%;}
+.col-10 {width: 62,5%;}
+.col-11 {width: 68,75;}
+.col-12 {width: 75%;}
+.col-13 {width: 81,25%;}
+.col-14 {width: 87,5%;}
+.col-15 {width: 93,75%;}
+.col-16 {width: 100%;}
+    body{
+    background-image: url(img/fundo_netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 100px rgb(10, 10, 196);
+}
+input{
+    margin: 0px 0px;
+    margin-top: 20px;
+}
+button{
+    margin: 0px 0px;
+    margin-top: 20px;
+}
+main{
+    display: block;
+    align-items: center;
+    justify-content: center;
+   margin-left: 25%;
+    padding: 10vh 10vh;
+    border-radius: 1vh;
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.822);
+   
+}
+
+#logo{
+    width: 26%;
+    padding: 20px 20px;
+}
+}

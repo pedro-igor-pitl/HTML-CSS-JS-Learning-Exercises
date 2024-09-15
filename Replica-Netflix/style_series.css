@@ -1,0 +1,178 @@
+* {
+   box-sizing : border-box ;
+   margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   }
+    .row::after {
+clear: both;
+   }
+
+    [class*="col-"] {
+    width:100%;
+    } 
+   body{
+       background-color: rgb(19, 17, 17);
+   }
+   #logo{
+       width: 35%;
+   }
+
+   .icon{
+      margin: 25px;
+   }
+   #menu{
+      font-size: 45px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+    nav{
+       display: block;
+       align-items: center;
+       color: white;
+       justify-content:space-between;
+       text-align: center;
+    }
+    ul,li{
+       list-style-type: none;
+       display: block;
+       padding: 10px 0;
+       font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      background-color: rgb(65, 65, 65);
+    }
+
+    li:hover{
+       background-color: rgb(109, 109, 109);
+     
+      color: rgb(255, 255, 255);
+    }
+   
+    #titulo1{
+       color: white;
+       padding: 40px 20px;
+    }
+#titulo2{
+       color: white;
+       padding: 40px 20px;
+
+    }
+#titulo3{
+       color: white;
+       padding: 40px 20px;
+    }
+#titulo4{
+       color: white;
+       padding: 40px 20px;
+    }
+#titulo5{
+       color: white;
+       padding: 40px 20px;
+    }
+    .img_section{
+       width: 35%;
+       border-radius: 1vh;
+       padding: 0 15px;
+    }
+    .section{
+       display: flex;
+       overflow-x: scroll;
+    }
+
+    #creditos{
+       color: white;
+       padding: 40px 0;
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+    }
+
+    @media only screen and (min-width: 768px){
+     [class*="col-"] {
+        float: left;
+        }
+.col-1 {width: 6,25%;}
+.col-2 {width: 12,5%;}
+.col-3 {width: 18,75%;}
+.col-4 {width: 25%;}
+.col-5 {width: 31,25%;}
+.col-6 {width: 37,5%;}
+.col-7 {width: 43,75%;}
+.col-8 {width: 50%;}
+.col-9 {width: 56,25%;}
+.col-10 {width: 62,5%;}
+.col-11 {width: 68,75;}
+.col-12 {width: 75%;}
+.col-13 {width: 81,25%;}
+.col-14 {width: 87,5%;}
+.col-15 {width: 93,75%;}
+.col-16 {width: 100%;}
+#menu{
+   display: none;
+}
+.img_section{
+  margin-left: 50px;
+  width: 30%;
+}
+     body{
+        background-image: url(img/lacasadepapel.jpg);
+        background-repeat: no-repeat;
+      background-size: contain;
+      box-shadow: -100px -100px 100px rgb(255, 0, 0);
+      
+     }
+     
+     #logo{
+        width: 50%;
+    }
+     nav{
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content:space-between;
+        text-align: center; 
+        margin-bottom: 70vh;
+     }
+     ul,li{
+        list-style-type: none;
+        display: flex;
+        padding: 10px 35px;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+       font-size: 20px;
+       background-color: rgba(250, 235, 215, 0);
+     }
+
+     li:hover{
+        background-color: rgba(0, 255, 255, 0);
+      
+       color: rgb(170, 170, 170);
+     }
+     #titulo1{
+        color: white;
+        padding: 40px 20px;
+        font-size: 50px;
+     }
+#titulo2{
+        color: white;
+        padding: 40px 20px;
+        font-size: 50px;
+     }
+#titulo3{
+        color: white;
+        padding: 40px 20px;
+        font-size: 50px;
+     }
+#titulo4{
+        color: white;
+        padding: 40px 20px;
+        font-size: 50px;
+     }
+#titulo5{
+        color: white;
+        padding: 40px 20px;
+        font-size: 50px;
+     }
+    }
