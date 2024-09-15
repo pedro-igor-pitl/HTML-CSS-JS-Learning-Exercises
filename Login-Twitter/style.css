@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(31, 42, 46);
+}
+main{
+    background-color: black;
+    max-width: 400px;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 20vh 20vh;
+    border-radius: 3%;
+    box-shadow: 2px 2px 10px black;
+    overflow-y: auto;
+}
+#icones{
+    display: flex;
+    margin: -18vh -18vh;
+    justify-content:space-between;
+}
+
+#x_icon{
+    font-size: 17px;
+    margin: 0;
+}
+#x_icon:hover{
+    font-size: 17px;
+    margin: 0;
+    
+    background-color: rgba(59, 58, 58, 0.664);
+    border-radius: 40%;
+}
+
+#twitter_icon{
+    font-size: 30px;
+    margin-right: 47vh;
+}
+#titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 25vh 0;
+    font-family: 'Roboto', sans-serif;
+}
+#div_google{
+    display: flex;
+}
+
+#google{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: white;
+    border-radius: 10vh;
+    padding: 3vh 7vh;
+    margin: -20vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#google:hover{
+    color: rgb(41, 41, 41);
+    background-color: rgb(212, 210, 210);
+    border: rgb(226, 224, 224);
+    border-radius: 10vh;
+    padding: 3vh 7vh;
+    margin: -20vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#apple{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+    border-radius: 10vh;
+    padding: 3vh 7vh;
+    margin: 25vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#apple:hover{
+    color: rgb(68, 68, 68);
+    background-color: rgb(214, 213, 213);
+    
+    border-radius: 10vh;
+    padding: 3vh 7vh;
+    margin: 25vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+i{
+    color: white;
+}
+#ou{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 11vh 0;
+    color: rgb(255, 255, 255);
+}
+#ou::before,
+      #ou::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+      }
+#login,form{
+    margin: -10vh -0.5vh;
+    padding: 4vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#login{
+    border: solid 1px rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 1vh;
+    color: rgb(16, 94, 163);
+    font-family: 'Roboto', sans-serif;
+}
+#avançar{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10vh;
+    padding: 2vh 7vh;
+    margin: 15vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#avançar:hover{
+    color: rgb(53, 52, 52);
+    background-color: rgb(209, 207, 207);
+    border-radius: 10vh;
+    padding: 2vh 7vh;
+    margin: 15vh 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#esqueceusenha{
+    border: solid 1px rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10vh;
+    padding: 2vh 7vh;
+    margin: -10vh 10vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#esqueceusenha:hover{
+    border: solid 1px rgb(207, 205, 205);
+    background-color: rgb(70, 69, 69);
+    border-radius: 10vh;
+    padding: 2vh 7vh;
+    margin: -10vh 10vh;
+    color: rgb(230, 228, 228);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#conta{
+    color: rgb(201, 201, 201);
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin: 20vh 10vh;
+}
+a{
+    color: rgb(43, 133, 206);
+}
+a:hover{
+    color: rgb(43, 133, 206);
+    text-decoration:underline;
+}
+footer{
+    margin-top: 10vh;
+    width: auto;
+    height: 10vh;
+    background-image: linear-gradient(to top, rgb(63, 152, 211), rgb(5, 96, 156));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#credito{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+}
