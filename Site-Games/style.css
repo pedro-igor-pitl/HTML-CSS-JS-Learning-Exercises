@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row::after {
+    clear: both;
+  }
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  
+  /*Ocupará uma coluna */
+  .col-2 {
+    width: 16.66%;
+  }
+  
+  /* Ocupará duas colunas */
+  .col-3 {
+    width: 25%;
+  }
+  
+  /*Ocupará três colunas */
+  .col-4 {
+    width: 33.33%;
+  }
+  
+  /*Ocupará quatro colunas */
+  .col-5 {
+    width: 41.66%;
+  }
+  
+  /*Ocupará cinco colunas */
+  .col-6 {
+    width: 50%;
+  }
+  
+  /*Ocupará seis colunas */
+  .col-7 {
+    width: 58.33%;
+  }
+  
+  /*Ocupará sete colunas */
+  .col-8 {
+    width: 66.66%;
+  }
+  
+  /*Ocupará oito colunas */
+  .col-9 {
+    width: 75%;
+  }
+  
+  /*Ocupará nove colunas */
+  .col-10 {
+    width: 83.33%;
+  }
+  
+  /*Ocupará dez colunas */
+  .col-11 {
+    width: 91.66%;
+  }
+  
+  /*Ocupará onze colunas */
+  .col-12 {
+    width: 100%;
+  }
+  
+  /*Ocupará doze colunas */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+  }
+  
+  #logo {
+    width: 10%;
+  }
+  
+  ul,
+  li {
+    display: flex;
+    padding: 2vh 2vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    color: white;
+  }
+  
+  li:hover {
+    color: rgb(238, 101, 101);
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #titulo {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vh;
+    font-weight: 800;
+    margin-top: 25vh;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px black;
+  
+  }
+  
+  #ponto {
+    margin-top: -4vh;
+  }
+  
+  #subtitulo {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 200;
+    margin-bottom: -100px 10px;
+    color: rgb(209, 209, 209);
+    text-shadow: 1px 1px 10px black;
+  
+  }
+  
+  header {
+    background-image: url(img/fundo_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+    align-items: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 250vh;
+    background-color: rgb(51, 12, 12);
+    overflow-y: auto;
+  
+  }
+  
+  #titulo_section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #titulo_section2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #titulo_section3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #titulo_section4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #img_cod {
+    width: 97%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+  }
+  
+  #img_cod:hover {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px rgb(163, 163, 163);
+    opacity: 1;
+  }
+  
+  #img_eldenring {
+    width: 98%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+  }
+  
+  #img_eldenring:hover {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px rgb(163, 163, 163);
+    opacity: 1;
+  }
+  
+  #img_valorant {
+    width: 98%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+  }
+  
+  #img_valorant:hover {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px rgb(190, 189, 189);
+  }
+  
+  #img_gow {
+    width: 98%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+  }
+  
+  #img_gow:hover {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px rgb(163, 163, 163);
+  }
+  
+  #para_cod {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #para_valorant {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #para_eldenring {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #para_gow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #red {
+    color: rgb(240, 47, 47);
+  }
+  
+  section {
+    border: 1px solid rgb(64, 64, 64);
+    background-color: rgb(26, 26, 26);
+    padding: 0 4vh;
+  }
+  
+  footer {
+    background-color: rgb(50, 63, 82);
+    width: auto;
+    height: 100vh;
+  }
+  
+  article {
+    background-image: linear-gradient(to top, rgb(68, 39, 37), rgb(202, 33, 11));
+  }
+  
+  #somos {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5vh 0;
+    color: aliceblue;
+  }
+  
+  .para_somos {
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8vh 5vh;
+    color: aliceblue;
+  }
+  
+  hr {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1px -100px;
+    margin: 10px 300px;
+  }
